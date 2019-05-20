@@ -1,13 +1,16 @@
 server:
   port: 9092
 
+ribbon:
+  eureka:
+    enabled: true
 eureka:
   instance:
     hostname: localhost
     port: 9091
   client:
     registerWithEureka: true
-    fetchRegistry: false
+    fetchRegistry: true
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
   server:
