@@ -1,14 +1,12 @@
 server:
   port: 8765
 
-#---------------- RabbitMQ -----------------#
-  rabbitmq:
-    dynamic: true
-    host: localhost
-    port: 8080
-    username: mqadmin
-    password: Admin123XX_delivery
-#---------------------------- RabbitMQ properties Commons ------------------------------#
+rabbitmq:
+  dynamic: true
+  host: localhost
+  port: 8080
+  username: mqadmin
+  password: Admin123XX_delivery
 
 eureka:
   instance:
