@@ -5,6 +5,7 @@ currency-conversion-service:
   minimum: 2
   maximum: 3
 
+teste: 1
 
 ribbon:
   eureka:
