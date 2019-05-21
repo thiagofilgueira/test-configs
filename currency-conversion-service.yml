@@ -2,7 +2,7 @@ server:
   port: 9092
 
 currency-conversion-service:
-  minimum: 1
+  minimum: 2
 
 
 ribbon:
