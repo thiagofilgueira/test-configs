@@ -1,5 +1,9 @@
 server:
-  port: 9999
+  port: 9092
+
+currency-conversion-service:
+  minimum: 1
+
 
 ribbon:
   eureka:
