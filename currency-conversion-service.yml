@@ -3,7 +3,7 @@ server:
 
 currency-conversion-service:
   minimum: 2
-  maximum: 3
+  maximum: 4
 
 teste: 1
 
